@@ -1,1 +1,1 @@
-print("✅ Test passed: CI/CD pipeline corriendo correctamente.")
+print("Test passed: CI/CD pipeline corriendo correctamente.")
