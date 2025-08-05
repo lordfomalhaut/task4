@@ -15,3 +15,12 @@ jobs:
       uses: actions/setup-python@v3
       with:
         python-version: "3.11"
+
+    - name: Run Python Test
+      run: python test.py
+
+    - name: Simulated Build
+      run: echo "Build step simulated..."
+
+    - name: Simulated Deployment
+      run: echo "Deploy step simulated..."
