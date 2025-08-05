@@ -6,7 +6,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     -uses: actions/checkout@master
-    -name: Set up QEMU
+    -name: build and push to docker
     uses: docker/build-push-action@v1
     with:
       username: ${{ secrets.DOCKER_USERNAME }}
