@@ -1,0 +1,15 @@
+{
+  "name": "task4",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+  "test": "node test/test.js",
+  "build": "echo 'simulando build...'",
+  "deploy": "echo 'simulando deploy...'"
+}
+,
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
